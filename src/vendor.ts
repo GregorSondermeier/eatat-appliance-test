@@ -2,13 +2,13 @@ import 'jquery';
 
 import 'angular';
 import '@uirouter/angularjs';
-import 'angular-immutable';
+// import 'angular-immutable';
 
 import 'reflect-metadata';
 
 import 'rxjs';
 
-import 'moment';
+// import 'moment';
 
 // import 'bootstrap/js/dist/alert';
 
