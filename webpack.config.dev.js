@@ -107,7 +107,7 @@ module.exports = [
 				filename: 'index.html'
 			}),
 			new CopyWebpackPlugin([
-
+				{from: 'src/_json',	to: 'json'}
 			])
 		]
 	}
