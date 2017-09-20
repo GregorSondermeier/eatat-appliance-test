@@ -14,7 +14,17 @@
 					<tr data-ng-repeat="(t, task) in day.tasks">
 						<td class="gsm-col-time">{{::task.time}}</td>
 						<td class="gsm-col-title">{{::task.title}}</td>
-						<td class="gsm-col-responsible">{{$ctrl.getContact(task.responsible)}} <a href="" data-ng-click="$ctrl.deleteResponsibleFn.emit({dayIdx: d, taskIdx: t})"><i class="fa fa-trash"></i></a></td>
+						<td class="gsm-col-responsible">
+							{{$ctrl.getContact(task.responsible)}}
+							<a href=""
+							   data-ng-click="$ctrl.editResponsibleFn.emit({dayIdx: d, taskIdx: t})">
+								<i class="fa fa-pencil"></i>
+							</a> |
+							<a href=""
+							   data-ng-click="$ctrl.deleteResponsibleFn.emit({dayIdx: d, taskIdx: t})">
+								<i class="fa fa-trash"></i>
+							</a>
+						</td>
 					</tr>
 					</tbody>
 				</table>
