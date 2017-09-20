@@ -1,3 +1,4 @@
-export function AppConfig($stateProvider: ng.ui.IStateProvider) {'ngInject';
+export function AppConfig($urlRouterProvider: ng.ui.IUrlRouterProvider) {'ngInject';
 
+	$urlRouterProvider.otherwise('/tasks');
 }

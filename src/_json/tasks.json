@@ -1,0 +1,168 @@
+[
+  {
+	"date": "2017-09-04",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba5982a8a58155ca69e"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba599ffe263a9a50841"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-05",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba557186105abbe8abd"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba51cbefdf79e1c8d1f"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-06",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba51933c95352f751ab"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba5f3bf135f3a80de3b"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-07",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba5757d243ab54b002f"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba5e15008dab2b0e433"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-08",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba5fb07096c915ce2ed"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba5a757cc8af2ec2ca7"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-09",
+	"tasks": []
+  },
+  {
+	"date": "2017-09-10",
+	"tasks": []
+  },
+  {
+	"date": "2017-09-11",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba54c5470fd530fd7ee"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba542a51f89fb072fb3"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-12",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba56c27e4bde06a6307"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba5a77707a43348a26c"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-13",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba518a9261824327d0c"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba59f7fe8acf4e8d8fe"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-14",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba5e851e921022fdc80"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba5363e422d396e0252"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-15",
+	"tasks": [
+	  {
+		"title": "Früh",
+		"time": "10:00",
+		"responsible": "59c23ba5982a8a58155ca69e"
+	  },
+	  {
+		"title": "Spät",
+		"time": "18:00",
+		"responsible": "59c23ba599ffe263a9a50841"
+	  }
+	]
+  },
+  {
+	"date": "2017-09-16",
+	"tasks": []
+  },
+  {
+	"date": "2017-09-17",
+	"tasks": []
+  }
+]

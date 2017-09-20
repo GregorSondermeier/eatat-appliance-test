@@ -2,14 +2,15 @@ import * as angularUiRouter from '@uirouter/angularjs';
 
 import {bundle, NgModule} from "ng-metadata/core";
 import {AppComponent} from "./app.component";
-// import {AppConfig} from "./app.config";
+import {TasksModule} from "../tasks/tasks.module";
+import {AppConfig} from "./app.config";
 
 @NgModule({
 	imports: [
-
+		TasksModule
 	],
 	providers: [
-		// AppConfig
+		AppConfig
 	],
 	declarations: [
 		AppComponent
