@@ -1,3 +1,4 @@
 <gsc-tasks-list data-ng-if="$ctrl.tasks"
 				[gs-tasks]="$ctrl.tasks"
-				[gs-contacts]="$ctrl.contacts"></gsc-tasks-list>
+				[gs-contacts]="$ctrl.contacts"
+				(gs-delete-responsible-fn)="$ctrl.deleteResponsible($event)"></gsc-tasks-list>

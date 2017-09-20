@@ -6,15 +6,15 @@
 	</tr>
 	</thead>
 	<tbody>
-		<tr data-ng-repeat="day in $ctrl.tasks">
+		<tr data-ng-repeat="(d, day) in $ctrl.tasks">
 			<td class="gsm-col-day">{{::day.date}}</td>
 			<td class="gsm-col-tasks">
 				<table class="table table-sm table-hover">
 					<tbody>
-					<tr data-ng-repeat="task in day.tasks">
+					<tr data-ng-repeat="(t, task) in day.tasks">
 						<td class="gsm-col-time">{{::task.time}}</td>
 						<td class="gsm-col-title">{{::task.title}}</td>
-						<td class="gsm-col-responsible">{{$ctrl.getContact(task.responsible)}}</td>
+						<td class="gsm-col-responsible">{{$ctrl.getContact(task.responsible)}} <a href="" data-ng-click="$ctrl.deleteResponsibleFn.emit({dayIdx: d, taskIdx: t})"><i class="fa fa-trash"></i></a></td>
 					</tr>
 					</tbody>
 				</table>

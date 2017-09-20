@@ -1,4 +1,4 @@
-import {Component, Input, OnChanges, OnInit} from "ng-metadata/core";
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from "ng-metadata/core";
 
 @Component({
 	selector: 'gsc-tasks-list',
@@ -12,8 +12,11 @@ export class TasksListComponent implements OnInit {
 	@Input('gsContacts')
 	public contacts: Array<gs.contact.IContact>;
 
+	@Output('gsDeleteResponsibleFn')
+	public deleteResponsibleFn: EventEmitter<{dayIdx: number, taskIdx: number}> = new EventEmitter<{dayIdx: number, taskIdx: number}>();
+
 	public ngOnInit(): void {
-		console.debug('TasksIndexComponent ngOnInit()');
+		console.debug('TasksListComponent ngOnInit()');
 	}
 
 	public getContact(id: string): string {

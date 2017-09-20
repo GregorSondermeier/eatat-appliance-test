@@ -37,4 +37,37 @@ export class TasksIndexComponent implements OnInit {
 		});
 	}
 
+	public deleteResponsible(event: {dayIdx: number, taskIdx: number}): void {
+		console.debug('TasksIndexComponent.deleteResponsible(event)', event);
+
+		let d: number = event.dayIdx,
+			t: number = event.taskIdx;
+
+		for (d; d < this.tasks.length; d++) {
+			if (this.tasks[d].tasks.length) {
+				for (t; t < this.tasks[d].tasks.length; t++) {
+					if (t >= event.taskIdx) {
+						this.tasks[d].tasks[t].responsible = this.getNextTaskResponsible(d, t);
+					}
+				}
+			}
+			t = 0;
+		}
+
+		console.debug('DONE');
+	}
+
+	private getNextTaskResponsible(d: number, t: number): string {
+		console.debug(d, t);
+		if (this.tasks[d]) {
+			if (this.tasks[d].tasks[t+1]) {
+				return this.tasks[d].tasks[t+1].responsible;
+			} else {
+				return this.getNextTaskResponsible(d+1, -1);
+			}
+		} else {
+			return null;
+		}
+	}
+
 }
