@@ -1,0 +1,24 @@
+<table class="table table-sm">
+	<thead>
+	<tr>
+		<th class="gsm-col-day">Tag</th>
+		<th class="gsm-col-tasks">Aufgaben</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="day in $ctrl.tasks">
+			<td class="gsm-col-day">{{::day.date}}</td>
+			<td class="gsm-col-tasks">
+				<table class="table table-sm table-hover">
+					<tbody>
+					<tr data-ng-repeat="task in day.tasks">
+						<td class="gsm-col-time">{{::task.time}}</td>
+						<td class="gsm-col-title">{{::task.title}}</td>
+						<td class="gsm-col-responsible">{{$ctrl.getContact(task.responsible)}}</td>
+					</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>

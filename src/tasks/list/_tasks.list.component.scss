@@ -1,0 +1,25 @@
+gsc-tasks-list {
+	 .table .table {
+		 margin-bottom: 0;
+
+		 tr:first-child td {
+			 border-top: 0 none;
+		 }
+	 }
+
+	.gsm-col-day {
+		width: 150px;
+	}
+
+	.gsm-col-tasks {
+		.gsm-col-time {
+			width: 100px;
+		}
+		.gsm-col-title {
+			width: 400px;
+		}
+		.gsm-col-responsible {
+
+		}
+	}
+}
